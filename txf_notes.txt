@@ -1,0 +1,36 @@
+From <https://www.reddit.com/r/tax/comments/ste86f/convert_csv_to_txf_for_turbotax/>:
+---
+In the TXF file (which can be opened in any text editor) the codes for which box needs to be checked are preceeded by the letter "N" and 3 digits:
+
+Short Term Box A: 321
+Short Term Box B: 711
+Short Term Box C: 712
+Long Term Box D: 323
+Long Term Box E: 713
+Long Term Box F: 714
+
+
+From <https://taxdataexchange.org/docs/txf/v042/txf-spec.html>
+---
+2 321  "ST gain/loss 8949 Copy A"     Y   N   I   4            2011:D:1
+2 711  "ST gain/loss 8949 Copy B"     Y   N   I   4            2011:D:1
+2 712  "ST gain/loss 8949 copy C"     Y   N   I   4            2011:D:1
+2 323  "LT gain/loss 8949 Copy A"     Y   N   I   4            2011:D:8
+2 713  "LT gain/loss 8949 Copy B"     Y   N   I   4            2011:D:8
+2 714  "LT gain/loss 8949 Copy C"     Y   N   I   4            2011:D:8
+2 673  "Short/Long 8949 Copy A"       Y   N   I   4            2011:D
+2 715  "Short/Long 8949 Copy B"       Y   N   I   4            2011:D
+2 716  "Short/Long 8949 Copy C"       Y   N   I   4            2011:D
+2 682  "Wash Sale - 8949 Copy A"      Y   N   I   4            2011:D
+2 718  "Wash Sale - 8949 Copy B"      Y   N   I   4            2011:D
+2 321  "ST gain/loss 8949 Copy A"     Y   N   I   5            2011:D:1
+2 711  "ST gain/loss 8949 Copy B"     Y   N   I   5            2011:D:1
+2 712  "ST gain/loss 8949 copy C"     Y   N   I   5            2011:D:1
+2 323  "LT gain/loss 8949 Copy A"     Y   N   I   5            2011:D:8
+2 713  "LT gain/loss 8949 Copy B"     Y   N   I   5            2011:D:8
+2 714  "LT gain/loss 8949 Copy C"     Y   N   I   5            2011:D:8
+2 673  "Short/Long 8949 Copy A"       Y   N   I   5            2011:D
+2 715  "Short/Long 8949 Copy B"       Y   N   I   5            2011:D
+2 716  "Short/Long 8949 Copy C"       Y   N   I   5            2011:D
+2 682  "Wash Sale - 8949 Copy A"      Y   N   I   5            2011:D
+2 718  "Wash Sale - 8949 Copy B"      Y   N   I   5            2011:D
