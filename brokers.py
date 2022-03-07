@@ -32,14 +32,15 @@ from interactive_brokers import InteractiveBrokers
 from tdameritrade import TDAmeritrade
 from vanguard import Vanguard
 from schwab import Schwab
-
+from apex_crypto import ApexCrypto
 
 BROKERS = {
     'amtd': TDAmeritrade,
     'ib': InteractiveBrokers,
     'tdameritrade': TDAmeritrade,
     'vanguard': Vanguard,
-    'schwab' : Schwab
+    'schwab' : Schwab,
+    'apexcrypto': ApexCrypto
 }
 
 
