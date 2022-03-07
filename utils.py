@@ -69,7 +69,7 @@ class Transaction(object):
 
 def txfDate(date):
     """Returns a date string in the TXF format, which is MM/DD/YYYY."""
-    if isinstance(date, basestring):
+    if isinstance(date, str):
         return date
     else:
         return date.strftime('%m/%d/%Y')
